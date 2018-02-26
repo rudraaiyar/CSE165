@@ -1,0 +1,39 @@
+﻿  App.cpp
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(38): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(39): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(40): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(50): warning C4018: '<': signed/unsigned mismatch
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(70): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(71): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(72): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(73): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(81): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(82): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(83): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(84): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(137): warning C4018: '<': signed/unsigned mismatch
+c:\users\muqqaddas\desktop\glutapptemplate\app.cpp(149): warning C4018: '<': signed/unsigned mismatch
+  Rect.cpp
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(38): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(39): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(40): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\rect.cpp(14): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  app_main.cpp
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\muqqaddas\desktop\glutapptemplate\circle.h(37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(38): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(39): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\muqqaddas\desktop\glutapptemplate\x.h(40): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+  glutapp.vcxproj -> C:\Users\Muqqaddas\Desktop\GlutAppTemplate\visualc15\obj\glutapp_Debug\glutapp.exe
+  glutapp.vcxproj -> obj\glutapp_Debug\glutapp.pdb (Full PDB)
