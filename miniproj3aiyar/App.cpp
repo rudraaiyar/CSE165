@@ -34,7 +34,7 @@ void App::draw() {
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
     
-    //Draw some lines
+    //Draw some grid
     glLineWidth(2.5);
     glColor3f(1.0, 1.0, 1.0);
     glBegin(GL_LINES);
@@ -85,6 +85,8 @@ void App::draw() {
         glVertex3f(0.85, -0.90, 0.2);
 		glVertex3f(0.85, -0.85, 0.2);
 		glEnd();
+        
+        //exit(0);
 	}
 	else if (winner == 2) 
 	{
@@ -97,6 +99,8 @@ void App::draw() {
         glVertex3f(0.85, -0.90, 0.2);
         glVertex3f(0.85, -0.85, 0.2);
         glEnd();
+        
+        //exit(0);
 	}
 	//   We have been drawing everything to the back buffer
 	//Swap the buffers to see the result of what we drew
