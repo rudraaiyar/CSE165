@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F71C15552059994100B5ADE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F71C15542059994100B5ADE8 /* main.cpp */; };
+		F71C156320599F5800B5ADE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F71C156220599F5800B5ADE8 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,11 @@
 
 /* Begin PBXFileReference section */
 		F71C15512059994100B5ADE8 /* Lab7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab7; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71C15542059994100B5ADE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F71C155D20599AB400B5ADE8 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		F71C156020599D6700B5ADE8 /* display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		F71C156120599E2100B5ADE8 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F71C156220599F5800B5ADE8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F71C15642059A07E00B5ADE8 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,11 @@
 		F71C15532059994100B5ADE8 /* Lab7 */ = {
 			isa = PBXGroup;
 			children = (
-				F71C15542059994100B5ADE8 /* main.cpp */,
+				F71C156120599E2100B5ADE8 /* Dog.h */,
+				F71C15642059A07E00B5ADE8 /* Dog.h */,
+				F71C156220599F5800B5ADE8 /* main.cpp */,
+				F71C156020599D6700B5ADE8 /* display.h */,
+				F71C155D20599AB400B5ADE8 /* Animal.h */,
 			);
 			path = Lab7;
 			sourceTree = "<group>";
@@ -119,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71C15552059994100B5ADE8 /* main.cpp in Sources */,
+				F71C156320599F5800B5ADE8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +256,7 @@
 				F71C155A2059994100B5ADE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

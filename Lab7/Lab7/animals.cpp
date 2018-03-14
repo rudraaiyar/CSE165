@@ -1,9 +1,13 @@
-//
-//  animals.cpp
-//  Lab7
-//
-//  Created by Rudra Aiyar on 3/14/18.
-//  Copyright © 2018 Rudra Aiyar. All rights reserved.
-//
+#include <iostream>
+#include "Dog.h"
 
-#include "animals.hpp"
+using namespace std;
+
+int main(int argc, const char * argv[])
+{
+    Dog myDog = Dog("Snoopy", 4);
+    
+    cout << myDog.getName() << " is " << myDog.getAge() << endl;
+    
+    return 0;
+}

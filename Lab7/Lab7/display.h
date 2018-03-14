@@ -1,13 +1,11 @@
-//
-//  display.h
-//  Lab7
-//
-//  Created by Rudra Aiyar on 3/14/18.
-//  Copyright © 2018 Rudra Aiyar. All rights reserved.
-//
+#ifndef LA4_display_h
+#define LA4_display_h
 
-#ifndef display_h
-#define display_h
+using namespace std;
+void display (const vector<Animal*> &list){
+    for (int i = 0; i < list.size(); i++) {
+        cout << list[i]->getName() << endl;
+    }
+}
 
-
-#endif /* display_h */
+#endif
