@@ -17,12 +17,10 @@ void move(int value){
     
     if (singleton->isMoving){
         singleton->fire->incY();
-        singleton->redraw();
+        singleton-> redraw();
         glutTimerFunc(32, move, value);
     }
 }
-
-
 
 App::App(const char* label, int x, int y, int w, int h): GlutApp(label, x, y, w, h){
     // Initialize state variables
@@ -37,7 +35,6 @@ App::App(const char* label, int x, int y, int w, int h): GlutApp(label, x, y, w,
     isMoving = false;
     
     glutTimerFunc(20, move, 1);
-    
 
 }
 
@@ -80,7 +77,6 @@ void App::mouseDown(float x, float y){
             fire->draw();
             fire->reset();
             explode(0);
-
         }
         else
         {
@@ -100,7 +96,6 @@ void App::mouseDrag(float x, float y){
 }
 
 void App::idle(){
-//    painting->advance();
     redraw();
 }
 
@@ -111,15 +106,8 @@ void App::keyUp(unsigned char key) {
 void App::keyPress(unsigned char key) {
     if (key == 27){
         
-        delete shroom;
         delete fire;
         
         exit(0);
     }
-    else if (key == ' '){
-        fire->reset();
-        explode(0);
-    }
-    
-    
 }
